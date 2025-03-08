@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AA43FC5A2D7CE5DE0003907D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA43FC412D7CE5DC0003907D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA43FC482D7CE5DC0003907D;
+			remoteInfo = HumanActivityRecognition;
+		};
+		AA43FC642D7CE5DE0003907D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA43FC412D7CE5DC0003907D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA43FC482D7CE5DC0003907D;
+			remoteInfo = HumanActivityRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA43FC492D7CE5DC0003907D /* HumanActivityRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumanActivityRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA43FC592D7CE5DE0003907D /* HumanActivityRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanActivityRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA43FC632D7CE5DE0003907D /* HumanActivityRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanActivityRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA43FC4B2D7CE5DC0003907D /* HumanActivityRecognition */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HumanActivityRecognition;
+			sourceTree = "<group>";
+		};
+		AA43FC5C2D7CE5DE0003907D /* HumanActivityRecognitionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HumanActivityRecognitionTests;
+			sourceTree = "<group>";
+		};
+		AA43FC662D7CE5DE0003907D /* HumanActivityRecognitionUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HumanActivityRecognitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA43FC462D7CE5DC0003907D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA43FC562D7CE5DE0003907D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA43FC602D7CE5DE0003907D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA43FC402D7CE5DC0003907D = {
+			isa = PBXGroup;
+			children = (
+				AA43FC4B2D7CE5DC0003907D /* HumanActivityRecognition */,
+				AA43FC5C2D7CE5DE0003907D /* HumanActivityRecognitionTests */,
+				AA43FC662D7CE5DE0003907D /* HumanActivityRecognitionUITests */,
+				AA43FC4A2D7CE5DC0003907D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA43FC4A2D7CE5DC0003907D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA43FC492D7CE5DC0003907D /* HumanActivityRecognition.app */,
+				AA43FC592D7CE5DE0003907D /* HumanActivityRecognitionTests.xctest */,
+				AA43FC632D7CE5DE0003907D /* HumanActivityRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA43FC482D7CE5DC0003907D /* HumanActivityRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA43FC6D2D7CE5DE0003907D /* Build configuration list for PBXNativeTarget "HumanActivityRecognition" */;
+			buildPhases = (
+				AA43FC452D7CE5DC0003907D /* Sources */,
+				AA43FC462D7CE5DC0003907D /* Frameworks */,
+				AA43FC472D7CE5DC0003907D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA43FC4B2D7CE5DC0003907D /* HumanActivityRecognition */,
+			);
+			name = HumanActivityRecognition;
+			packageProductDependencies = (
+			);
+			productName = HumanActivityRecognition;
+			productReference = AA43FC492D7CE5DC0003907D /* HumanActivityRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA43FC582D7CE5DE0003907D /* HumanActivityRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA43FC702D7CE5DE0003907D /* Build configuration list for PBXNativeTarget "HumanActivityRecognitionTests" */;
+			buildPhases = (
+				AA43FC552D7CE5DE0003907D /* Sources */,
+				AA43FC562D7CE5DE0003907D /* Frameworks */,
+				AA43FC572D7CE5DE0003907D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA43FC5B2D7CE5DE0003907D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA43FC5C2D7CE5DE0003907D /* HumanActivityRecognitionTests */,
+			);
+			name = HumanActivityRecognitionTests;
+			packageProductDependencies = (
+			);
+			productName = HumanActivityRecognitionTests;
+			productReference = AA43FC592D7CE5DE0003907D /* HumanActivityRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA43FC622D7CE5DE0003907D /* HumanActivityRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA43FC732D7CE5DE0003907D /* Build configuration list for PBXNativeTarget "HumanActivityRecognitionUITests" */;
+			buildPhases = (
+				AA43FC5F2D7CE5DE0003907D /* Sources */,
+				AA43FC602D7CE5DE0003907D /* Frameworks */,
+				AA43FC612D7CE5DE0003907D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA43FC652D7CE5DE0003907D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA43FC662D7CE5DE0003907D /* HumanActivityRecognitionUITests */,
+			);
+			name = HumanActivityRecognitionUITests;
+			packageProductDependencies = (
+			);
+			productName = HumanActivityRecognitionUITests;
+			productReference = AA43FC632D7CE5DE0003907D /* HumanActivityRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA43FC412D7CE5DC0003907D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AA43FC482D7CE5DC0003907D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AA43FC582D7CE5DE0003907D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA43FC482D7CE5DC0003907D;
+					};
+					AA43FC622D7CE5DE0003907D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA43FC482D7CE5DC0003907D;
+					};
+				};
+			};
+			buildConfigurationList = AA43FC442D7CE5DC0003907D /* Build configuration list for PBXProject "HumanActivityRecognition" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA43FC402D7CE5DC0003907D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA43FC4A2D7CE5DC0003907D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA43FC482D7CE5DC0003907D /* HumanActivityRecognition */,
+				AA43FC582D7CE5DE0003907D /* HumanActivityRecognitionTests */,
+				AA43FC622D7CE5DE0003907D /* HumanActivityRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA43FC472D7CE5DC0003907D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA43FC572D7CE5DE0003907D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA43FC612D7CE5DE0003907D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA43FC452D7CE5DC0003907D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA43FC552D7CE5DE0003907D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA43FC5F2D7CE5DE0003907D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA43FC5B2D7CE5DE0003907D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA43FC482D7CE5DC0003907D /* HumanActivityRecognition */;
+			targetProxy = AA43FC5A2D7CE5DE0003907D /* PBXContainerItemProxy */;
+		};
+		AA43FC652D7CE5DE0003907D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA43FC482D7CE5DC0003907D /* HumanActivityRecognition */;
+			targetProxy = AA43FC642D7CE5DE0003907D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA43FC6B2D7CE5DE0003907D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA43FC6C2D7CE5DE0003907D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA43FC6E2D7CE5DE0003907D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HumanActivityRecognition/Preview Content\"";
+				DEVELOPMENT_TEAM = LSNJLF5UU4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenwu.HumanActivityRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA43FC6F2D7CE5DE0003907D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HumanActivityRecognition/Preview Content\"";
+				DEVELOPMENT_TEAM = LSNJLF5UU4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenwu.HumanActivityRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA43FC712D7CE5DE0003907D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSNJLF5UU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenwu.HumanActivityRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumanActivityRecognition.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HumanActivityRecognition";
+			};
+			name = Debug;
+		};
+		AA43FC722D7CE5DE0003907D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSNJLF5UU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenwu.HumanActivityRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumanActivityRecognition.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HumanActivityRecognition";
+			};
+			name = Release;
+		};
+		AA43FC742D7CE5DE0003907D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSNJLF5UU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenwu.HumanActivityRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumanActivityRecognition;
+			};
+			name = Debug;
+		};
+		AA43FC752D7CE5DE0003907D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSNJLF5UU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenwu.HumanActivityRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumanActivityRecognition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA43FC442D7CE5DC0003907D /* Build configuration list for PBXProject "HumanActivityRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA43FC6B2D7CE5DE0003907D /* Debug */,
+				AA43FC6C2D7CE5DE0003907D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA43FC6D2D7CE5DE0003907D /* Build configuration list for PBXNativeTarget "HumanActivityRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA43FC6E2D7CE5DE0003907D /* Debug */,
+				AA43FC6F2D7CE5DE0003907D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA43FC702D7CE5DE0003907D /* Build configuration list for PBXNativeTarget "HumanActivityRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA43FC712D7CE5DE0003907D /* Debug */,
+				AA43FC722D7CE5DE0003907D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA43FC732D7CE5DE0003907D /* Build configuration list for PBXNativeTarget "HumanActivityRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA43FC742D7CE5DE0003907D /* Debug */,
+				AA43FC752D7CE5DE0003907D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA43FC412D7CE5DC0003907D /* Project object */;
+}
