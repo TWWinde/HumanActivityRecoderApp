@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct HumanActivityRecognitionApp: App {
+struct BehaviorMonitorApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(MotionService.shared)
+                .environmentObject(ActivityPredictor.shared)
+                .environmentObject(DataRecorder.shared)
         }
     }
 }
